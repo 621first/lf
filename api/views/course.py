@@ -10,6 +10,7 @@ class CourseCategoryView(ViewSetMixin, APIView):
     课程大类
     '''
     #测试
+    #测试 git stash pop
     def list(self, request, *args, **kwargs):
         ret = {'code': 1000, 'data': None}
         try:
